@@ -1,0 +1,79 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/universal
+{
+	"name": "Expense.FYI - Default Linux Universal",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"image": "mcr.microsoft.com/devcontainers/universal:2-linux",
+	"features": {
+		"ghcr.io/devcontainers-contrib/features/zsh-plugins:0": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"aaron-bond.better-comments",
+				"astro-build.astro-vscode",
+				"astro-build.houston",
+				"christian-kohler.npm-intellisense",
+				"DanielSanMedium.dscodegpt",
+				"DavidAnson.vscode-markdownlint",
+				"dbaeumer.vscode-eslint",
+				"devzstudio.emoji-snippets",
+				"docsmsft.docs-article-templates",
+				"docsmsft.docs-authoring-pack",
+				"docsmsft.docs-build",
+				"docsmsft.docs-images",
+				"docsmsft.docs-linting",
+				"docsmsft.docs-markdown-to-mail",
+				"docsmsft.docs-metadata",
+				"docsmsft.docs-preview",
+				"docsmsft.docs-scaffolding",
+				"docsmsft.docs-yaml",
+				"docsmsft.learnlinter",
+				"donjayamanne.githistory",
+				"eamodio.gitlens",
+				"esbenp.prettier-vscode",
+				"GitHub.codespaces",
+				"GitHub.copilot-chat",
+				"GitHub.copilot-labs",
+				"GitHub.copilot",
+				"GitHub.remotehub",
+				"GitHub.vscode-codeql",
+				"github.vscode-github-actions",
+				"Gruntfuggly.todo-tree",
+				"hbenl.vscode-test-explorer",
+				"mhutchie.git-graph",
+				"ms-azuretools.vscode-docker",
+				"ms-dotnettools.vscode-dotnet-runtime",
+				"ms-edgedevtools.vscode-edge-devtools",
+				"ms-vscode-remote.remote-containers",
+				"ms-vscode.remote-repositories",
+				"ms-vscode.test-adapter-converter",
+				"pflannery.vscode-versionlens",
+				"PKief.material-icon-theme",
+				"redhat.vscode-yaml",
+				"ritwickdey.LiveServer",
+				"usernamehw.errorlens",
+				"VisualStudioExptTeam.intellicode-api-usage-examples",
+				"VisualStudioExptTeam.vscodeintellicode-completions",
+				"VisualStudioExptTeam.vscodeintellicode",
+				"vscode-icons-team.vscode-icons",
+				"znck.grammarly"
+			]
+		}
+	}
+
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	// "features": {},
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "uname -a",
+
+	// Configure tool-specific properties.
+	// "customizations": {},
+
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
+}
